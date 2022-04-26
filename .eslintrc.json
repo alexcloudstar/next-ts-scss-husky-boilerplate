@@ -1,8 +1,7 @@
 {
 	"extends": ["next", "next/core-web-vitals"],
 	"rules": {
-		"no-unused-vars": "error",
-		"indent": ["error", 2]
+		"no-unused-vars": "error"
 	},
 	"parserOptions": {
 		"ecmaFeatures": {
@@ -10,10 +9,5 @@
 		},
 		"ecmaVersion": 12,
 		"sourceType": "module"
-	},
-	"settings": {
-		"react": {
-			"version": "latest"
-		}
 	}
 }
