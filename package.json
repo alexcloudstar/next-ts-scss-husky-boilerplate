@@ -12,8 +12,7 @@
 		"check-format": "prettier --check .",
 		"check-lint": "eslint . --ext ts --ext tsx --ext js",
 		"format": "prettier --write .",
-		"test-all": "check-format && check-lint && check-types && build",
-		"pre-commit": "yarn lint --fix && git add -A ."
+		"test-all": "format && check-format && check-lint && check-types && yarn lint --fix && build && git add -A ."
 	},
 	"dependencies": {
 		"husky": "^7.0.4",
